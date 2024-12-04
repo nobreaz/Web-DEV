@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Estudo de tabelas</title>
+    </head>
+
+    <body>
+    
+        <h2>Produtos</h2>
+        <table border="1" width = "50%">  <!-- "Border" define a grossura das bordas da tabela-->  <!-- "Width" define largura da tabela, tanto em pixem quanto em porcentagem-->
+            <tr>    <!-- 'tr' = Table row ou 'linhas da tabela'-->
+                <th>Código</th>     <!-- 'th' = Table header ou 'Cabeçalho da tabela'-->
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+            </tr>
+            <tr>
+                <td>001</td>    <!-- 'td' = Table data ou 'dados da tabela'-->
+                <td>Maçã</td>
+                <td>R$ 3,90</td>
+                <td>80 un</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td><a href="">Pera</a></td>    <!-- É possível criar hyperlinks dentro de tabelas-->
+                <td>R$ 4,50</td>
+                <td>59 un</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Melão</td>
+                <td>R$ 11,39</td>
+                <td>13 un</td>
+            </tr>
+            <tr>
+                <th rowspan="2" colspan="2">Desconto</th>   <!-- 'rowspan' serve para mesclar células de linhas diferentes em uma coluna-->
+                <td colspan="3">Cupom 1 - R$ 13,24</td>   <!-- 'colspan' serve para mesclar células de uma mesma linha em colunas diferentes-->
+            </tr>
+            <tr>
+                <td colspan="3">Cupom 2 - R$ 5,36</td>   <!-- 'colspan' serve para mesclar células de uma mesma linha em colunas diferentes-->
+            </tr>
+        </table>
+    </body>
+</html>
