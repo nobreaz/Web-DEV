@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DIVs e Span</title>     <!-- Estilo Inline significa aplicar CSS no próprio código HTML -->
+        <meta charset="UTF-8">          
+        <style type="text/css">
+            #topo{
+                background: blue;
+            }
+            #conteudo{
+                background-color: cornflowerblue;
+            }
+
+            #rodape{
+                background: green;
+            }
+
+            #assinatura{
+                background: pink;
+            }
+
+            .produto{
+                background: gainsboro;
+                margin: 10px
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="topo">     <!-- 'div' é um elemento de divisão do tipo bloco para aplicar diferentes estilos-->
+            <img src="https://quenotebookcomprar.com.br/wp-content/uploads/2022/03/logo-loja-Kabum.png" width="200">
+            <ul>
+                <li>Home</li>
+                <li>Contato</li>
+                <li>Produtos</li>
+            </ul>
+        </div>
+
+        <div id="conteudo">
+            <div class="produto">
+                Produto 1
+            </div>
+            <div class="produto">
+                Produto 2
+            </div>
+            <div class="produto">
+                Produto 3
+            </div>
+        </div>
+
+        <div id="rodape">Todos os direitos reservados</div>
+
+        <span id="assinatura">João Nobre</span>     <!-- 'span' é uma ferramenta para aplicar estilos sem transformar o conetúdo em bloco -->
+    </body>
+</html>

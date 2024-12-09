@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <title>Classes e IDs</title>     <!-- Estilo Inline significa aplicar CSS no próprio código HTML -->
+        <meta charset="UTF-8">          
+        <style type="text/css">     
+            p{color:red;}   
+            h1{color:green;}
+
+            .azul{color: blue}  /* O '.' indica ser uma classe, com ela, é possível ligar várias partes do código em um único estilo definido pela classe */
+
+            #principal{background-color: beige;}    /* A '#' faz referência a um ID, mas que só deve ser usado em uma única tag */
+        </style>
+    </Head>     <!-- 'Style' permite alterar todas tags de uma página de uma única vez -->
+
+    <body id="principal">
+        <h1 style="color: blue; ">Estilo CSS</h1>  <!-- Dessa forma, apenas esse header é alterado e possui maior prioridade que o style -->
+
+        <p style=" color: red; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem at enim commodo vestibulum. Cras id massa consequat, elementum urna non, facilisis dui. Aliquam erat volutpat. Fusce vestibulum urna at tortor posuere hendrerit. Nam facilisis lobortis sem, nec ultricies justo tristique sed. Phasellus at porta magna. Ut sed neque at erat eleifend tempor. Nulla quis rutrum mi, at facilisis nibh. Aliquam in blandit lacus. Donec vel eleifend ligula, nec tincidunt magna. Quisque non nisi posuere arcu tincidunt posuere.</p>
+        
+        <p class="azul">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem at enim commodo vestibulum. Cras id massa consequat, elementum urna non, facilisis dui. Aliquam erat volutpat. Fusce vestibulum urna at tortor posuere hendrerit. Nam facilisis lobortis sem, nec ultricies justo tristique sed. Phasellus at porta magna. Ut sed neque at erat eleifend tempor. Nulla quis rutrum mi, at facilisis nibh. Aliquam in blandit lacus. Donec vel eleifend ligula, nec tincidunt magna. Quisque non nisi posuere arcu tincidunt posuere.</p> <!-- 'Class="azul"' faz referência ao estilo da classe definido no head -->
+        <hr>
+        <p style=" color: red; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem at enim commodo vestibulum. Cras id massa consequat, elementum urna non, facilisis dui. Aliquam erat volutpat. Fusce vestibulum urna at tortor posuere hendrerit. Nam facilisis lobortis sem, nec ultricies justo tristique sed. Phasellus at porta magna. Ut sed neque at erat eleifend tempor. Nulla quis rutrum mi, at facilisis nibh. Aliquam in blandit lacus. Donec vel eleifend ligula, nec tincidunt magna. Quisque non nisi posuere arcu tincidunt posuere.</p>
+        
+        <p class="azul">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem at enim commodo vestibulum. Cras id massa consequat, elementum urna non, facilisis dui. Aliquam erat volutpat. Fusce vestibulum urna at tortor posuere hendrerit. Nam facilisis lobortis sem, nec ultricies justo tristique sed. Phasellus at porta magna. Ut sed neque at erat eleifend tempor. Nulla quis rutrum mi, at facilisis nibh. Aliquam in blandit lacus. Donec vel eleifend ligula, nec tincidunt magna. Quisque non nisi posuere arcu tincidunt posuere.</p>
+    </body>
+</html>
