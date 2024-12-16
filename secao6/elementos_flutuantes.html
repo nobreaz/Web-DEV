@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Elementos Flutuantes</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            body{
+                background: #f4f4f4;
+            }
+            
+            #principal{
+                width: 1500px;
+            }
+
+            .noticia{
+                width: 300px;
+                background-color: #e3e3e3;
+                text-align: justify;
+                padding: 20px;
+                padding-top: 0px;
+                border: 1px solid black;
+                float: left;
+                margin: 10px;
+                width: 250px;
+            }
+
+            .clear{
+                clear: both;
+            }
+
+            .imagem-galeria{
+                float: left;
+                margin: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="principal">
+            
+            <div>   <!-- Notícias-->
+                <div class="noticia">
+                    <h2>Notícias 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem at enim commodo vestibulum. Cras id massa consequat, elementum urna non, facilisis dui. Aliquam erat volutpat. Fusce vestibulum urna at tortor posuere hendrerit. Nam facilisis lobortis sem, nec ultricies.</p>
+                    <a href="">Leia mais</a>
+                </div>
+                <div class="noticia">
+                    <h2>Notícias 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem at enim commodo vestibulum. Cras id massa consequat, elementum urna non, facilisis dui. Aliquam erat volutpat. Fusce vestibulum urna at tortor posuere hendrerit. Nam facilisis lobortis sem, nec ultricies.</p>
+                    <a href="">Leia mais</a>
+                </div>
+                <div class="noticia">
+                    <h2>Notícias 3</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem at enim commodo vestibulum. Cras id massa consequat, elementum urna non, facilisis dui. Aliquam erat volutpat. Fusce vestibulum urna at tortor posuere hendrerit. Nam facilisis lobortis sem, nec ultricies.</p>
+                    <a href="">Leia mais</a>
+                </div>
+            </div>  <!-- Fim notícias-->
+
+            <div class="clear"></div>
+
+            <div>   <!-- Fotos -->
+                <div class="imagem-galeria">
+                    <img src="imagens/elementos flutuantes/imagem1.png">
+                    <p>Resumo</p>
+                </div>
+                <div class="imagem-galeria">
+                    <img src="imagens/elementos flutuantes/imagem2.png">
+                    <p>Resumo</p>
+                </div>
+                <div class="imagem-galeria">
+                    <img src="imagens/elementos flutuantes/imagem3.png">
+                    <p>Resumo</p>
+                </div>
+                <div class="imagem-galeria">
+                    <img src="imagens/elementos flutuantes/imagem4.png">
+                    <p>Resumo</p>
+                </div>
+                <div class="imagem-galeria">
+                    <img src="imagens/elementos flutuantes/imagem5.png">
+                    <p>Resumo</p>
+                </div>
+            </div>  <!-- Fim fotos-->
+        </div>  <!-- Fim principal-->
+    </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Posicionamento</title>
+        <meta charset="UTF-8">
+        <style tabindex="text/css">
+            
+            body{
+                background: #007fc7;
+            }
+            
+            #container{
+                background: #fff;
+                width: 800p;
+                padding: 10px;
+                margin: 10px 10%;
+                position: relative; /* Posicionamento relativo ao browser, fazendo com que o elemento absoluto também seja referente a ele invés do browser */
+            }
+
+            h1{
+                position: static;   /* É a posição padrão do código ser mostrado de cima para baixo */
+            }
+            p{
+                position: static;
+                width: 400px;
+                text-align: justify;
+                margin: 30px;
+            }
+
+            .relative{
+                border: red solid 2px;
+                position: relative; /* É possível relativizar a forma de posicionamento */
+                left: 50px;         /*top, right, bottom ou left */
+            }
+
+            .absoluto{
+                position: absolute; /* O posicionamento absoluto torna o elemento fixo em relação ao browser */
+                border: red solid 2px;
+                right: 20px;
+                top: 0px;
+            }
+
+            .fixo{      /* O posicionamento fixo torna o elemento fixo em relação ao browser */
+                border: red solid 2px;
+                background: whitesmoke;
+                position: fixed;
+                bottom: 0px;
+                right: 0px;
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Posicionamento</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem at enim commodo vestibulum. Cras id massa consequat, elementum urna non, facilisis dui. Aliquam erat volutpat. Fusce vestibulum urna at tortor posuere hendrerit. Nam facilisis lobortis sem, nec ultricies.</p>
+            <p class="fixo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem at enim commodo vestibulum. Cras id massa consequat, elementum urna non, facilisis dui. Aliquam erat volutpat. Fusce vestibulum urna at tortor posuere hendrerit. Nam facilisis lobortis sem, nec ultricies.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem at enim commodo vestibulum. Cras id massa consequat, elementum urna non, facilisis dui. Aliquam erat volutpat. Fusce vestibulum urna at tortor posuere hendrerit. Nam facilisis lobortis sem, nec ultricies.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem at enim commodo vestibulum. Cras id massa consequat, elementum urna non, facilisis dui. Aliquam erat volutpat. Fusce vestibulum urna at tortor posuere hendrerit. Nam facilisis lobortis sem, nec ultricies.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem at enim commodo vestibulum. Cras id massa consequat, elementum urna non, facilisis dui. Aliquam erat volutpat. Fusce vestibulum urna at tortor posuere hendrerit. Nam facilisis lobortis sem, nec ultricies.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem at enim commodo vestibulum. Cras id massa consequat, elementum urna non, facilisis dui. Aliquam erat volutpat. Fusce vestibulum urna at tortor posuere hendrerit. Nam facilisis lobortis sem, nec ultricies.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem at enim commodo vestibulum. Cras id massa consequat, elementum urna non, facilisis dui. Aliquam erat volutpat. Fusce vestibulum urna at tortor posuere hendrerit. Nam facilisis lobortis sem, nec ultricies.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem at enim commodo vestibulum. Cras id massa consequat, elementum urna non, facilisis dui. Aliquam erat volutpat. Fusce vestibulum urna at tortor posuere hendrerit. Nam facilisis lobortis sem, nec ultricies.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem at enim commodo vestibulum. Cras id massa consequat, elementum urna non, facilisis dui. Aliquam erat volutpat. Fusce vestibulum urna at tortor posuere hendrerit. Nam facilisis lobortis sem, nec ultricies.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem at enim commodo vestibulum. Cras id massa consequat, elementum urna non, facilisis dui. Aliquam erat volutpat. Fusce vestibulum urna at tortor posuere hendrerit. Nam facilisis lobortis sem, nec ultricies.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem at enim commodo vestibulum. Cras id massa consequat, elementum urna non, facilisis dui. Aliquam erat volutpat. Fusce vestibulum urna at tortor posuere hendrerit. Nam facilisis lobortis sem, nec ultricies.</p>
+        </div>
+    </body>
+</html>
