@@ -1,0 +1,69 @@
+*{  /*Limpando todas as formatações*/
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+h2{
+    font-size: 35px;
+    padding: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+a:link, a:visited{
+    color: #fff;
+}
+a:hover{
+    background-color: white;
+    color: #f7b600;
+}
+
+#cabecalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+    height: 120px;
+}
+
+#principal{
+    width: 920px;
+    padding: 15px;
+    margin: 0 auto;  /* Centralizando o conteúdo*/
+}
+
+#conteudo{
+    width: 660px;
+    float: left;
+}
+
+#lateral{
+    width: 240px;
+    float: right;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 620px;
+    background: white;
+}
+
+.foto{
+    width: 620px;
+}
