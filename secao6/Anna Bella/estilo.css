@@ -1,0 +1,53 @@
+body{
+    background-image: url(imagens/fundo.png);
+}
+
+a{
+    text-decoration: none;
+    color: #39455c;
+}
+
+.principal{
+    width: 900px;
+}
+
+.menu{
+    background-color: #b9b09f;
+    padding: 18px;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 25px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #807768;
+}
+
+p{
+    font-size: 15px;
+}
+
+.conteudo{
+    padding: 25px;
+    background-color: #e9e8e0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.rodape{
+    text-align: center;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding-top: 25px;
+}
+
+.foto{
+    width: 550px;
+    border: 10px solid #bdb8b1;
+}
