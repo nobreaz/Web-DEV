@@ -1,0 +1,19 @@
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+ul a{
+    width: 200px;
+    height: 40px;
+    display: block;
+    background: #f7b600 url(imagens/menu.png) no-repeat;
+    text-decoration: none;
+    text-indent: 40px;  /* Indentando o texto */
+    line-height: 40px;  /* Definindo a altura do texto */
+}
+a:hover, .selecionado a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
