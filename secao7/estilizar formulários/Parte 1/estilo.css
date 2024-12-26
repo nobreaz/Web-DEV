@@ -15,10 +15,13 @@ label{
     display: block;
     cursor: pointer;
 }
-input{
+input[type="text"]{     /* Define um estilo para uma determinada tag de determinado tipo */
     width: 20em;
 }
 textarea{
     width: 40%;
     height: 10em;
+}
+.radio{
+    margin-right: 1em;
 }
