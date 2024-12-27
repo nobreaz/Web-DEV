@@ -24,7 +24,7 @@ body{
     background: url(Imagens/logo.png) no-repeat center;
     text-indent: -3000px;   /* Esconde o texto do usuário, mas torna o site acessível caso o CSS não carregue por algum motivo */
 }
-ul a{
+#topo ul a{
     text-decoration: none;
     float: left;
     padding: 13px 15px;
@@ -32,7 +32,7 @@ ul a{
     color: #fff;
     margin-top: 10px;
 }
-ul li{
+#topo ul li{
     list-style-type: none;
     margin: 15px 0;
 }
@@ -49,29 +49,7 @@ ul .primeiro a{
 #conteudo{
     margin-top: 80px;
 }
-.caixa{
-    background: #fff url(Imagens/fundo-caixa.png);
-    padding: 15px;
-}
-.noticia{
-    background: #fff;
-}
-.caixa h2{
-    background-color: #294c71;
-    padding: 5px;
-    font-size: 20px;
-    color: #fff;
-}
-.caixa h3{
-    background-color: rgb(219, 21, 71);
-    margin-top: 10px;
-    font-size: 14px;
-    display: inline-block;
-    padding: 3px 5px;
-}
-.foto{
-    width: 240px;
-}
+
 /* PRIMARIO */
 #tres-colunas #primario{
     background-color: blue;
@@ -88,10 +66,56 @@ ul .primeiro a{
 }
 /* LATERAL */
 #lateral{
-    background-color: yellow;
+    background: url(Imagens/fundo-caixa.png);
     float: left;
     width: 180px;
     margin: 0 0 20px -750px;
+}
+#lateral h2{
+    background-color:#294c71;
+    font-size: 1em;
+    padding: 5px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.caixa ul{
+    margin-bottom: 5px;
+}
+.caixa ul li{
+    list-style-type: none;
+}
+.caixa ul li a{
+    background: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+    width: 140px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    border-bottom: 1px solid #ececec;
+}
+.caixa ul li a:hover{
+    background: #f9f9f9 url(Imagens/marcador.png) no-repeat center left;
+    color: #a1a1a1;
+    text-indent: 15px;
+}
+.caixa-conteudo{
+    background-color: #fff;
+    margin: 5px;
+    padding: 5px;
+}
+.caixa-conteudo .email{
+    width: 140px;
+    height: 25px;
+    border-top: 2px solid black;
+}
+.caixa-conteudo .submit{
+    height: 30px;
+    width: 80px;
+    color: #fff;
+    background: #b10333;
+    border: 2px solid #870529;
 }
 /* RODAPÉ */
 #container-rodape{
