@@ -1,3 +1,4 @@
+/* GERAL */
 *{
     margin: 0;
     padding: 0;
@@ -10,8 +11,8 @@ body{
 #container{
     width: 750px;
     margin: 0 auto;
-    border: 1px solid red;
 }
+/* TOPO E NAVEGAÇÃO */
 #topo{
     height: 150px;
     background: url(Imagens/detalhe-topo.png) no-repeat right top;
@@ -22,4 +23,83 @@ body{
     height: 66px;
     background: url(Imagens/logo.png) no-repeat center;
     text-indent: -3000px;   /* Esconde o texto do usuário, mas torna o site acessível caso o CSS não carregue por algum motivo */
+}
+ul a{
+    text-decoration: none;
+    float: left;
+    padding: 13px 15px;
+    background: rgba(182, 17, 58, 0.918) url(Imagens/divisor.png) repeat-y;
+    color: #fff;
+    margin-top: 10px;
+}
+ul li{
+    list-style-type: none;
+    margin: 15px 0;
+}
+ul .atual a{
+    background-color: rgb(219, 21, 71);
+}
+ul .primeiro a{
+    background-image: none;
+}
+#topo ul a:hover{
+    color: #69001d;
+}
+/* CORPO DO SITE */
+#conteudo{
+    margin-top: 80px;
+}
+.caixa{
+    background: #fff url(Imagens/fundo-caixa.png);
+    padding: 15px;
+}
+.noticia{
+    background: #fff;
+}
+.caixa h2{
+    background-color: #294c71;
+    padding: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+.caixa h3{
+    background-color: rgb(219, 21, 71);
+    margin-top: 10px;
+    font-size: 14px;
+    display: inline-block;
+    padding: 3px 5px;
+}
+.foto{
+    width: 240px;
+}
+/* PRIMARIO */
+#tres-colunas #primario{
+    background-color: blue;
+    float: left;
+    width: 270px;
+    margin: 0 0 20px 195px;
+}
+/* SECUNDÁRIO */
+#secundario{
+    background-color: green;
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+/* LATERAL */
+#lateral{
+    background-color: yellow;
+    float: left;
+    width: 180px;
+    margin: 0 0 20px -750px;
+}
+/* RODAPÉ */
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
 }
