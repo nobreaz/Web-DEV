@@ -25,29 +25,71 @@
             }
 
             /*********************** EFEITO PARALLAX ******************/
-            .caixa1, .caixa2{
-                height: 100%;
-            }
-            .caixa1{
-                background: url(Imagens/imagem1.jpg) no-repeat;
+            .caixa1, .caixa2, .caixa3, .caixa4{
+                position: relative;
+                height: 100vh;
+                background-attachment: fixed;
+                background-position: center;
+                background-size: cover;
+                opacity: 0.7;
                 
             }
+            .caixa1{
+                background-image: url(Imagens/imagem1.jpg);
+            }
             .caixa2{
+                background-image: url(Imagens/imagem2.jpg);
+            }
+            .caixa3{
+                background-image: url(Imagens/imagem3.jpg);
+            }
+            .caixa4{
+                background-image: url(Imagens/imagem4.jpg);
+            }
 
+            /****************** ESTILIZANDO OS TÍTULOS *****************/
+            .conteudo-titulo{
+                position: absolute;
+                width: 100%;
+                left: 0;
+                top: 45%;
+                text-align: center;
+            }
+            .conteudo-titulo span.titulo{
+                color: #fff;
+                background-color: #111;
+                padding: 18px;
+                font-size: 25px;
+                letter-spacing: 5px;
+                text-transform: uppercase;
+                font-weight: bold;  
             }
         </style>
     </head>
     <body>
         <div class="caixa1">
-            Caixa 1
+            <div class="conteudo-titulo">
+                <span class="titulo">Passeio de balões</span>
+            </div>
         </div>
         <div class="conteudo">
             <h3>Parallax</h3>
             <p>Et facilis optio ex ipsa similique ex neque error? Qui nobis ducimus vel minima tempora ut voluptatem atque et vero dolor aut facere unde et voluptas voluptatem non error inventore?</p>
         </div>
-        <div class="caixa 2">
-            Caixa 2
+        <div class="caixa2">
+            <div class="conteudo-titulo">
+                <span class="titulo">Pegando a estrada</span>
+            </div>
         </div>
+        <div class="caixa3">
+            <div class="conteudo-titulo">
+                <span class="titulo">Pôr do sol</span>
+            </div>
+        </div>
+        <div class="caixa4">
+            <div class="conteudo-titulo">
+                <span class="titulo">Montanhas</span>
+            </div>
         </div>
     </body>
 </html>
