@@ -7,6 +7,9 @@ body{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background: #fff url(Imagens/fundo.png) repeat-x;
 }
+ul{
+    list-style-type: none;
+}
 
 #container{
     width: 750px;
@@ -36,10 +39,10 @@ body{
     list-style-type: none;
     margin: 15px 0;
 }
-ul .atual a{
+#topo ul .atual a{
     background-color: rgb(219, 21, 71);
 }
-ul .primeiro a{
+#topo ul .primeiro a{
     background-image: none;
 }
 #topo ul a:hover{
@@ -52,14 +55,68 @@ ul .primeiro a{
 
 /* PRIMARIO */
 #tres-colunas #primario{
-    background-color: blue;
     float: left;
     width: 270px;
     margin: 0 0 20px 195px;
 }
+.titulo-reportagem{
+    color: #fff;
+    background: #ac113d;
+    display: inline;
+    padding: 3px 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.foto-reportagem{
+    width: 98%;
+    margin-top: 5px;
+    border: 3px solid #dfdfdf;
+}
+.caixa{
+    background: url(Imagens/fundo-caixa.png);
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+}
+.caixa-conteudo a{
+    color: #b10333;
+}
+.caixa-conteudo a:hover{
+    color: red;
+}
+
+#lista-noticias li {
+	padding: 2px;
+	border-bottom: 1px solid #ccc; 
+	height: 62px;
+}
+
+#lista-noticias li a img {
+	float: left;
+	margin: 5px;
+}
+
+#lista-noticias li a {
+	text-decoration: none;
+}
+
+#lista-noticias li a h3 {
+	font-size: 0.8em;
+	padding: 0;
+	color: #3e7ab9;
+}
+
+#lista-noticias li a p {
+	font-size: 0.7em;
+	color: #000;
+}
+
+#lista-noticias li:hover {
+	background: #eee;
+	cursor: pointer;
+}
 /* SECUNDÁRIO */
 #secundario{
-    background-color: green;
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
@@ -71,20 +128,20 @@ ul .primeiro a{
     width: 180px;
     margin: 0 0 20px -750px;
 }
-#lateral h2{
+.caixa h2{
     background-color:#294c71;
     font-size: 1em;
     padding: 5px;
     color: #fff;
     margin-bottom: 5px;
 }
-.caixa ul{
+#lateral .caixa ul{
     margin-bottom: 5px;
 }
-.caixa ul li{
+#lateral .caixa ul li{
     list-style-type: none;
 }
-.caixa ul li a{
+#lateral .caixa ul li a{
     background: #fff;
     margin: 0 auto;
     padding: 10px;
@@ -95,7 +152,7 @@ ul .primeiro a{
     color: black;
     border-bottom: 1px solid #ececec;
 }
-.caixa ul li a:hover{
+#lateral .caixa ul li a:hover{
     background: #f9f9f9 url(Imagens/marcador.png) no-repeat center left;
     color: #a1a1a1;
     text-indent: 15px;
