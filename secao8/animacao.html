@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animações</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            @keyframes animacao-caixa{
+                from{
+                    background: red;
+                    border-radius: 0px;
+                    top: 0;
+                    left: 0;
+                }
+                to{
+                    background: blue;
+                    border-radius: 300px;
+                    top: 200px;
+                    left: 200px;
+                }
+            }
+            #caixa{
+                width: 300px;
+                height: 300px;
+                animation-name: animacao-caixa;
+                animation-duration: 5s;
+                position: relative;
+                background: blue;
+                animation-delay: 3s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+
+                /* animation: animacao-caixa 5s 3s infinite alternate; */
+            }
+        </style>
+    </head>
+    <body>
+        <div id="caixa">
+            <h1>Animações no CSS</h1>
+            <p>Lorem ipsum dolor sit amet. Ad veniam sint qui eius libero sit eveniet neque et doloribus</p>
+        </div>
+    </body>
+</html>
