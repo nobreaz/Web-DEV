@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box Sizing</title>
+        <link rel="stylesheet" href="normalize.css">    <!-- Normaliza as propriedades CSS dos navegadores -->
+        <style type="text/css">
+            #caixa{
+                width: 300px;
+                height: 300px;
+                background: #b9c941;
+                padding: 30px;
+                box-sizing: border-box;     /* Muda o comportamento da caixa de incrementar o tamanho conforme o padding (ou o conteúdo) aumenta */
+                -webkit-border-radius: 20%;     /* "webkit" é um prefixo para que browsers mais antigos sejam compativeis (Chrome e Safari) */
+                -moz-border-radius: 20%;        /* Mesma ideia do "webkit" mas para Firefox */
+                border-radius: 20%;
+                margin: 10px;;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="caixa">
+            <h1>Título da caixa</h1>
+            <p>Lorem ipsum dolor sit amet. Ad veniam sint qui eius libero sit eveniet neque et doloribus quas ut quod quisquam aut doloribus molestias. Et facilis optio ex ipsa similique ex neque erro</p>
+        </div>
+        
+    </body>
+</html>
