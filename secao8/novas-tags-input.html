@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Novas Tags</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+        </style>
+    </head>
+    <body>
+        <form>
+            <label>Nome:</label>
+            <input type="text" name="nome" id="nome" required autofocus><br><br>
+            <!-- 'Required' indica que o campo de preenchimento deve ser obrigatório -->
+            <!-- 'Autofocus' indica que o campo será automaticamente selecionado assim que carregar a página-->
+
+            <label>E-mail:</label>
+            <input type="email" name="email" id="email" required><br><br>
+
+            <label>Número:</label>
+            <input type="number" name="number" id="number" min="5" max="50"><br><br>
+            <!-- 'min' e 'max' definem o range de números permitidos no input -->
+
+            <label>URL:</label>
+            <input type="url" name="url" id="url" placeholder="ex.: https://www..."><br><br>
+
+            <label>Pesquisa:</label>
+            <input type="search" name="search" id="search"><br><br>
+
+            <label>Range:</label>
+            <input type="range" name="range" id="range"><br><br>
+
+            <label>Data:</label>
+            <input type="date" name="data" id="data"><br><br>
+
+            <label>Cor:</label>
+            <input type="color" name="cor" id="cor"><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
