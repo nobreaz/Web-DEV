@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" shrink-to-fit="no">
+        <title>Formatação de textos - BOOTSTRAP</title>
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">    <!-- É possível tanto o arquivo quanto o link disponível no site do Bootstrap -->
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <!-- É possível usar estilos de headers para outras headers -->
+            <h1>Cabeçalho 1</h1>
+            <h2>Cabeçalho 2</h2>
+            <h3>Cabeçalho 3</h3>
+            <h4>Cabeçalho 4</h4>
+            <h5 class="h1">Cabeçalho 5</h5>
+            <h6>Cabeçalho 6</h6>
+            <!-- Aqui, o h5 possui o mesmo estilo de h1, pois este está definido em bootstrap.min.css-->
+            <hr>
+            <!-- É possível criar displays para dar destaque, indo de 1 a 4 -->
+            <h1 class="display-1">Display 1</h1>
+            <h1 class="display-2">Display 2</h1>
+            <h1 class="display-3">Display 3</h1>
+            <h1 class="display-4">Display 4</h1>
+
+            <hr>
+
+            <!-- Para dar destaque em parágrafos, temos a classe 'lead'-->
+            <p class="lead">Lorem ipsum dolor sit amet. Ad veniam sint qui eius libero sit eveniet neque et doloribus quas ut quod quisquam aut doloribus molestias. Et facilis optio ex ipsa similique ex neque error? Qui nobis ducimus vel minima tempora ut voluptatem atque et vero dolor aut facere unde et voluptas voluptatem non error inventore?</p>
+
+            <!-- Parágrafo monospace -->
+            <p class="text-monospace">Lorem ipsum dolor sit amet. Ad veniam sint qui eius libero sit eveniet neque et doloribus quas ut quod quisquam aut doloribus molestias. Et facilis optio ex ipsa similique ex neque error? Qui nobis ducimus vel minima tempora ut voluptatem atque et vero dolor aut facere unde et voluptas voluptatem non error inventore?</p>
+
+            <hr>
+
+            <!-- Classes para estilos -->
+            <p class="font-weight-normal">Texto normal</p>
+            <p class="font-weight-bold">Texto em negrito</p>
+            <p class="font-italic">Texto em itálico</p>
+
+            <hr>
+
+            <!-- Classes para transformação de textos -->
+            <p class="text-uppercase">Texto em maiúsculo</p>
+            <p class="text-lowercase">Texto em minúsculo</p>
+            <p class="text-capitalize">Texto com primeira letra maiúscula</p>
+
+            <hr>
+
+            <!-- Classes para alinhamentos -->
+            <p class="text-left">Esquerda</p>
+            <p class="text-right">Direita</p>
+            <p class="text-center">Centralizado</p>
+
+            <hr>
+
+            <!-- Bloco de citação -->
+            <blockquote class="blockquote">
+                <p>Essa é uma citação.</p>
+            </blockquote>
+
+            <hr>
+
+            <!-- Bloco de citação com rodapé -->
+             <blockquote>
+                <p>Lorem ipsum dolor sit amet. Ad veniam sint qui eius libero sit eveniet neque et doloribus</p>
+                <footer class="blockquote-footer text-right">Por
+                    <cite>João Nobre</cite>
+                </footer>
+             </blockquote>
+
+             <hr>
+
+             <!-- Classe truncate: Diminui a visualização do texto de acordo com o espaço da tela -->
+            <p class="text-truncate">Lorem ipsum dolor sit amet. Ad veniam sint qui eius libero sit eveniet neque et doloribus quas ut quod quisquam aut doloribus molestias. Et facilis optio ex ipsa similique ex neque error?</p>
+
+            <hr>
+
+            <!-- Lista sem estilo -->
+            <ul class="list-unstyled">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <br>
+
+            <!-- Lista inline -->
+            <ul class="list-inline">
+                <li class="list-inline-item">Item 1</li>
+                <li class="list-inline-item">Item 2</li>
+                <li class="list-inline-item">Item 3</li>
+            </ul>
+        </div>
+
+        <!-- Códigos opcionais de JS para o Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
