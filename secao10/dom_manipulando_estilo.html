@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterando Estilo com Javascript</title>
+</head>
+<body>
+    
+    <h3>Manipulando estilo</h3>
+
+    <button onclick="mudarEstilo('#FF0000', '300px', '300px')">Vermelho</button>
+    <button onclick="mudarEstilo('#00FF00', '100px', '100px')">Verde</button>
+    <button onclick="mudarEstilo('#0000FF', '400px', '400px')">Azul</button>
+
+    <hr>
+
+    <div style="border: 1px solid black; width: 200px; height: 200px;" id="div"></div>
+
+    <script>
+
+        function mudarEstilo(corDeFundo, altura, largura){
+            document.getElementById('div').style.background = corDeFundo
+            document.getElementById('div').style.height = altura
+            document.getElementById('div').style.width = largura
+        }
+    </script>
+</body>
+</html>
